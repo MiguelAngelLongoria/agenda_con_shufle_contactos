@@ -2,7 +2,7 @@
 //  Agenda_ShufleApp.swift
 //  Agenda Shufle
 //
-//  Created by alumno on 2/26/25.
+//  Created by Jadzia Gallegos on 26/02/25.
 //
 
 import SwiftUI

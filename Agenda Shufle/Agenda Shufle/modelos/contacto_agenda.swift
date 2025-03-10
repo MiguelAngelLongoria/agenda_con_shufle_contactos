@@ -2,17 +2,29 @@
 //  contacto_agenda.swift
 //  Agenda Shufle
 //
-//  Created by alumno on 2/26/25.
+//  Created by Jadzia Gallegos on 26/02/25.
 //
 
 import SwiftUI
 
-struct contacto_agenda: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct ContactoAgenda: Identifiable {
+    var nombre: String
+    var telefono: String
+    
+    var imagen: String = "imagen"
+    
+    var id: String { nombre }
 }
 
-#Preview {
-    contacto_agenda()
+/*
+var nombre = "Pepito Veraz"
+
+var _nombre: String
+
+var nombre: set{
+    let nombre_validado = filtrar_palabras(value)
+    _nombre = nombre_validado
+} get {
+    return _nombre.split(" ")[0]
 }
+*/

@@ -12,6 +12,10 @@
 		FB2A7DC22D6F7B1C00D7FA19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2A7DC12D6F7B1C00D7FA19 /* Preview Assets.xcassets */; };
 		FB2A7DC92D6F7C1800D7FA19 /* PantallaAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A7DC82D6F7C1800D7FA19 /* PantallaAgenda.swift */; };
 		FB2A7DCC2D6F7FB700D7FA19 /* contacto_preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A7DCB2D6F7FB700D7FA19 /* contacto_preview.swift */; };
+		FB2A7DCF2D6F872600D7FA19 /* contacto_agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A7DCE2D6F872600D7FA19 /* contacto_agenda.swift */; };
+		FB57870A2D78BCF600087D96 /* pantalla_del_ganador.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5787092D78BCF600087D96 /* pantalla_del_ganador.swift */; };
+		FBC255072D7618CC0022B5B3 /* pantalla_agregar_contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC255062D7618CC0022B5B3 /* pantalla_agregar_contacto.swift */; };
+		FBC255092D761C420022B5B3 /* icono.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC255082D761C420022B5B3 /* icono.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		FB2A7DC12D6F7B1C00D7FA19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB2A7DC82D6F7C1800D7FA19 /* PantallaAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaAgenda.swift; sourceTree = "<group>"; };
 		FB2A7DCB2D6F7FB700D7FA19 /* contacto_preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contacto_preview.swift; sourceTree = "<group>"; };
+		FB2A7DCE2D6F872600D7FA19 /* contacto_agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contacto_agenda.swift; sourceTree = "<group>"; };
+		FB5787092D78BCF600087D96 /* pantalla_del_ganador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantalla_del_ganador.swift; sourceTree = "<group>"; };
+		FBC255062D7618CC0022B5B3 /* pantalla_agregar_contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantalla_agregar_contacto.swift; sourceTree = "<group>"; };
+		FBC255082D761C420022B5B3 /* icono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icono.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 		FB2A7DB92D6F7B1C00D7FA19 /* Agenda Shufle */ = {
 			isa = PBXGroup;
 			children = (
+				FBC255052D7618A50022B5B3 /* pantallas */,
+				FB2A7DCD2D6F85A600D7FA19 /* modelos */,
 				FB2A7DCA2D6F7F5700D7FA19 /* componentes */,
 				FB2A7DBA2D6F7B1C00D7FA19 /* Agenda_ShufleApp.swift */,
 				FB2A7DBE2D6F7B1C00D7FA19 /* Assets.xcassets */,
@@ -74,8 +84,26 @@
 			isa = PBXGroup;
 			children = (
 				FB2A7DCB2D6F7FB700D7FA19 /* contacto_preview.swift */,
+				FBC255082D761C420022B5B3 /* icono.swift */,
 			);
 			path = componentes;
+			sourceTree = "<group>";
+		};
+		FB2A7DCD2D6F85A600D7FA19 /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				FB2A7DCE2D6F872600D7FA19 /* contacto_agenda.swift */,
+			);
+			path = modelos;
+			sourceTree = "<group>";
+		};
+		FBC255052D7618A50022B5B3 /* pantallas */ = {
+			isa = PBXGroup;
+			children = (
+				FBC255062D7618CC0022B5B3 /* pantalla_agregar_contacto.swift */,
+				FB5787092D78BCF600087D96 /* pantalla_del_ganador.swift */,
+			);
+			path = pantallas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC255092D761C420022B5B3 /* icono.swift in Sources */,
 				FB2A7DCC2D6F7FB700D7FA19 /* contacto_preview.swift in Sources */,
 				FB2A7DC92D6F7C1800D7FA19 /* PantallaAgenda.swift in Sources */,
+				FB57870A2D78BCF600087D96 /* pantalla_del_ganador.swift in Sources */,
+				FB2A7DCF2D6F872600D7FA19 /* contacto_agenda.swift in Sources */,
+				FBC255072D7618CC0022B5B3 /* pantalla_agregar_contacto.swift in Sources */,
 				FB2A7DBB2D6F7B1C00D7FA19 /* Agenda_ShufleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
